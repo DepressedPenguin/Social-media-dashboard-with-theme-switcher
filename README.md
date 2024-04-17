@@ -35,6 +35,7 @@
   <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
 </body>
 </html>
-![localhost_5173_](https://github.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/assets/125665615/35f03726-43ae-43ec-829a-379f0c4edc0b)
+
+![DarkMode](https://imgur.com/a/TSgb1jJ)
 
 
