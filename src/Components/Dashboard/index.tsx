@@ -19,7 +19,7 @@ export default function Dashboard({ darkHandler, theme }: DashboardProps) {
         <div className={`${styles.dashboard_section} background`}>
           <div className={styles.top_side_headline}>
             <h1 className="text">Social Media Dashboard</h1>
-            <p className={styles.followers_amount}>Total Followers : 33,004</p>
+            <p className={styles.followers_amount}>Total Followers : 22,004</p>
           </div>
           <div className={styles.top_side_darkmode}>
             <p>Dark Mode</p>
