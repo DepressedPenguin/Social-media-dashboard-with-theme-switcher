@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Social Media Dashboard</h1>
+  <p>This project is a small web application built using React.js and styled with SCSS. It is designed to display social media analytics in a dashboard format. It includes two main components: Dashboard and Overview.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Features</h2>
+  <h3>Dashboard Component</h3>
+  <ul>
+    <li>Displays total followers for different social media platforms.</li>
+    <li>Allows toggling between light and dark mode.</li>
+    <li>Shows the current follower count and growth rate for each social media platform.</li>
+  </ul>
 
-Currently, two official plugins are available:
+  <h3>Overview Component</h3>
+  <ul>
+    <li>Provides a summary of page views for various social media platforms.</li>
+    <li>Displays the number of page views and growth rate for each platform.</li>
+  </ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>Installation</h2>
+  <p>Clone the repository and open the project in your preferred text editor or IDE.</p>
 
-## Expanding the ESLint configuration
+  <h2>Usage</h2>
+  <p>To use the project, ensure you have Node.js installed on your machine. Then, run <code>npm install</code> to install the dependencies. After that, you can start the development server by running <code>npm start</code>. Include the necessary CSS and JavaScript files in your HTML file. Then, add the Dashboard and Overview components to your HTML markup as needed.</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <h2>Contributing</h2>
+  <p>Contributions are welcome! Feel free to submit pull requests or open issues on the GitHub repository.</p>
 
-- Configure the top-level `parserOptions` property like this:
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
+</body>
+</html>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Dark Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/dark.png)
+![Light Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/light.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
