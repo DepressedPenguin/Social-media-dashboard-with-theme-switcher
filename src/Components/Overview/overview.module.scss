@@ -1,0 +1,105 @@
+// OVERVIEW SCSS
+.overview_section {
+  //   border: 1px solid red;
+  background-color: rgb(29 32 41);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.overview_headline {
+  background-color: rgb(29 32 41);
+  color: white;
+  padding: 10px;
+}
+
+.overview_social_media {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 10px;
+}
+
+// CUSTOM ICON COLOR "RED"
+.custom_icon {
+  color: rgb(152 61 76);
+  font-weight: 700;
+}
+
+.box_media {
+  background-color: rgb(37 43 67);
+  height: 180px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+// PAGE VIEW BOX
+.page_view {
+  width: 100%;
+  //   background-color: white;
+  //   border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page_number_rate {
+  width: 100%;
+  //   background-color: white;
+  //   border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page_view_p {
+  font-weight: 700;
+  color: grey;
+  //   font-size: 18px;
+}
+
+// image_custom for all boxsss
+.image_custom {
+  width: 30px;
+}
+
+// number_views
+.number_views {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+// grow_rate_p
+.grow_rate_p {
+  color: rgb(60 140 129);
+  font-weight: 700;
+}
+
+// rate div
+.rate_div {
+  color: rgb(60 140 129);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 4px;
+
+  i {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .overview_social_media {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}

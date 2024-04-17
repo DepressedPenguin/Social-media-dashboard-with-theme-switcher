@@ -1,0 +1,31 @@
+// DARK MODE SCSS FILE
+
+// LIGHT MODE
+
+.light {
+  .text {
+    color: #191919;
+    transition: 1s color;
+  }
+  .background {
+    background-color: white;
+    transition: 1s background-color;
+  }
+
+  .box_social {
+    background-color: rgb(240 243 251);
+    transition: 1s background-color;
+  }
+}
+
+// DARK MODE
+.dark {
+  .text {
+    color: white;
+    transition: 1s color;
+  }
+  .background {
+    background-color: rgb(32 34 47);
+    transition: 1s background-color;
+  }
+}

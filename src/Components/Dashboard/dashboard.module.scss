@@ -1,0 +1,290 @@
+// dashboard_section Top Side
+.dashboard_section {
+  // border: 1px solid black;
+  background-color: rgb(32 34 47);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.two_sides {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline_div_dark {
+  background-color: #191910;
+  border: 1px solid orange;
+}
+
+// top_side_two_sides
+.top_side_headline {
+  display: flex;
+  flex-direction: column;
+  // border: 1px solid red;
+
+  padding: 20px;
+
+  h1 {
+    color: white;
+  }
+}
+// top_side_darkmode
+.top_side_darkmode {
+  display: flex;
+  color: grey;
+  font-weight: 700;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  // border: 1px solid red;
+}
+
+.social_media_boxs {
+  // border: 1px solid red;
+  background-color: rgb(32 34 47);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.box_social {
+  background-color: rgb(37 43 67);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  // border: 1px solid red;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.followers_amount {
+  font-weight: 700;
+  color: rgb(127 132 161);
+}
+
+// USER AND FACEBOOK ICON
+.icon_facebook_user {
+  gap: 10px;
+  //   border: 1px solid red;
+  color: grey;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    width: 30px;
+  }
+}
+
+// FOLLOWERS NAME I MEAN P <> )
+
+.followers_name {
+  text-align: center;
+  width: 100%;
+  color: gray;
+  font-weight: 500;
+  //   border: 1px solid white;
+  letter-spacing: 5px;
+}
+
+.year_facebook {
+  color: white;
+  font-size: 60px;
+}
+
+.year_and_follower {
+  text-align: center;
+}
+
+.rate_div_last {
+  color: rgb(202 70 93);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+// RATE GROW
+
+.rate_grow {
+  color: rgb(60 140 129);
+  font-weight: 700;
+}
+
+.rate_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  i {
+    color: rgb(60 140 129);
+  }
+}
+
+// box_social_facebook
+.box_social_facebook {
+  background-color: rgb(37 43 67);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  // border-top: 5px solid rgb(25 143 245);
+  border-top: 5px solid hsla(208, 92%, 53%, 1);
+  border-radius: 10px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+// box_social_twitter
+.box_social_twitter {
+  background-color: rgb(37 43 67);
+  // border-top: 5px solid rgb(25 143 245);
+  border-top: 5px solid hsla(208, 92%, 53%, 1);
+  border-radius: 10px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box_social_instagram {
+  background-color: rgb(37 43 67);
+  border-top: 5px solid rgb(232 120 130);
+  border-radius: 10px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+// box_social_youtube
+.box_social_youtube {
+  background-color: rgb(37 43 67);
+  border-top: 5px solid rgb(194 4 41);
+  border-radius: 10px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+// MEDIA QURY ... 1200 BREAK POINT ONLY
+@media only screen and (max-width: 768px) {
+  .dashboard_section {
+    // border: 1px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .two_sides {
+    // border: 1px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .social_media_boxs {
+    // border: 1px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+  .top_side_darkmode {
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top_side_headline {
+    position: relative;
+  }
+
+  .top_side_headline::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    // left: 10;
+    // right: 10;
+    width: 100%;
+    border-bottom: 2px solid rgb(115, 113, 113);
+  }
+}
+
+.bar input {
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 20px;
+  margin: 0 10px;
+  position: relative;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+.point {
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  transition: 0.4;
+  border-radius: 34px;
+}
+
+// MAKE THE POINT
+.point::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  top: 2px;
+  left: 0px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+input:checked + .point::before {
+  background-color: #191910;
+}
+
+input:checked + .point::before {
+  transform: translateX(10px);
+}
