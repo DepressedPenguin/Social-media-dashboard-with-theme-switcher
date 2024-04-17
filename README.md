@@ -36,6 +36,6 @@
 </body>
 </html>
 
-![DarkMode](https://imgur.com/a/TSgb1jJ)
+https://imgur.com/a/TSgb1jJ
 
 
