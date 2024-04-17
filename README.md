@@ -36,7 +36,8 @@
 </body>
 </html>
 
-https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/dark.png
-https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/light.png
+![Dark Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/dark.png)
+![Light Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/light.png)
+
 
 
