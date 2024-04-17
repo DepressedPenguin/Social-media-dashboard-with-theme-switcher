@@ -36,6 +36,7 @@
 </body>
 </html>
 
-https://imgur.com/a/TSgb1jJ
+https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/dark.png
+https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/light.png
 
 
