@@ -1,43 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <h1>Social Media Dashboard</h1>
-  <p>This project is a small web application built using React.js and styled with SCSS. It is designed to display social media analytics in a dashboard format. It includes two main components: Dashboard and Overview.</p>
+# Easybank Landing Page
 
-  <h2>Features</h2>
-  <h3>Dashboard Component</h3>
-  <ul>
-    <li>Displays total followers for different social media platforms.</li>
-    <li>Allows toggling between light and dark mode.</li>
-    <li>Shows the current follower count and growth rate for each social media platform.</li>
-  </ul>
+Welcome to the Easybank Landing Page project! This repository contains the code for a modern landing page for Easybank, a fictional digital banking service.
 
-  <h3>Overview Component</h3>
-  <ul>
-    <li>Provides a summary of page views for various social media platforms.</li>
-    <li>Displays the number of page views and growth rate for each platform.</li>
-  </ul>
+## Description
 
-  <h2>Installation</h2>
-  <p>Clone the repository and open the project in your preferred text editor or IDE.</p>
+The landing page is built using React.js for the frontend and styled using SCSS for enhanced CSS capabilities.
 
-  <h2>Usage</h2>
-  <p>To use the project, ensure you have Node.js installed on your machine. Then, run <code>npm install</code> to install the dependencies. After that, you can start the development server by running <code>npm start</code>. Include the necessary CSS and JavaScript files in your HTML file. Then, add the Dashboard and Overview components to your HTML markup as needed.</p>
+### Components
 
-  <h2>Contributing</h2>
-  <p>Contributions are welcome! Feel free to submit pull requests or open issues on the GitHub repository.</p>
+- **Navbar:** Navigation bar for easy access to different sections of the page.
+- **Slider:** A dynamic slider section showcasing the key features of Easybank.
+- **Features:** Highlighting the main features of Easybank.
+- **Articles:** Section displaying the latest articles related to Easybank.
+- **Footer:** Footer section containing links to social media, about us, contact, and other relevant information.
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
-</body>
-</html>
+## Installation
 
-![Dark Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/dark.png)
-![Light Mode](https://raw.githubusercontent.com/DepressedPenguin/Social-media-dashboard-with-theme-switcher/master/src/assets/light.png)
+To run this project locally, follow these steps:
 
-
-
+1. Clone the repository: `git clone https://github.com/your-username/easybank-landing-page.git`
+2. Navigate to the project directory: `cd easybank-landing-page`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and go to `http://localhost:3000`.
